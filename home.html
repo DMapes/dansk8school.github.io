@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home Page</title>
+</head>
+<body>
+    <h1>Home Page</h1>
+</body>
+    {%for post in posts %}
+    <h1>{{post.title}}</h1>
+    <p>WC {{post.WC}} L {{post.L}}</p>
+    {% endfor %}
+</html>
